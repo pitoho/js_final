@@ -81,11 +81,11 @@ const sl = document.querySelector('.sl')
 sliderInput.addEventListener('input', (e) => {
   const value = e.target.value;
   if(value <= 33){
-    sl.style.backgroundImage = "url('/images/blackchel.jpg')"
+    sl.style.backgroundImage = "url('images/blackchel.jpg')"
   }else if(value > 33 && value <=66){
-    sl.style.backgroundImage = "url('/images/middlechel.jpg')"
+    sl.style.backgroundImage = "url('images/middlechel.jpg')"
   }else if(value > 66 && value <= 100){
-    sl.style.backgroundImage = "url('/images/bluechel.jpg')"
+    sl.style.backgroundImage = "url('images/bluechel.jpg')"
   }
   sliderValue.innerHTML = value;
 });
