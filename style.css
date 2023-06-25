@@ -21,7 +21,7 @@ body{
 .bg-color-change {
     width: 200px;
     height: 200px;
-    background-image: url(/images/кот.jpg);
+    background-image: url(images/кот.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -29,14 +29,14 @@ body{
     width: 300px;
     height: 200px;
     color: white;
-    background-image: url(/images/blackchel.jpg);
+    background-image: url(images/blackchel.jpg);
     background-size: cover;
 }
 .correct{
-    background-image: url(/images/karamislo.jpg);
+    background-image: url(images/karamislo.jpg);
 }
 .img{
-    background-image: url(/images/cat1.jpg);
+    background-image: url(images/cat1.jpg);
 }
 .cow{
     width: 400px;
@@ -65,5 +65,5 @@ body{
     text-align: center;
   }
 .sl{
-    background-image: url(/images/middlechel.jpg);
+    background-image: url(images/middlechel.jpg);
 }

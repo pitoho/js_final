@@ -1,4 +1,4 @@
-// Получаем ссылки на интерактивные элементы
+
 const button1 = document.getElementById("btn1");
 const select1 = document.getElementById("select1");
 const img = document.querySelector('.img')
@@ -51,22 +51,22 @@ function updateTag(e) {
     switch (tagType) {
         case "гусь":
             second.style.width = '200px'
-            second.style.backgroundImage = "url('/images/goose.gif')"
+            second.style.backgroundImage = "url('images/goose.gif')"
             console.log('s')
             break;
         case "корова":
-            second.style.backgroundImage = "url('/images/cow.gif')"
+            second.style.backgroundImage = "url('images/cow.gif')"
             second.style.width = '400px'
             console.log('s')
             break;
         case "мопс":
             second.style.width = '200px'
-            second.style.backgroundImage = "url('/images/pug.gif')"
+            second.style.backgroundImage = "url('images/pug.gif')"
             console.log('s')
             break;
         default:
             second.style.width = '200px'
-            second.style.backgroundImage = "url('/images/cat.gif')"
+            second.style.backgroundImage = "url('images/cat.gif')"
             break;
     }
     
