@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Викторина</h1>
+<section class="block">
+    <div class="semi-block">
+        <h2>Кот</h2>
+        <p class="text">Не тыкай на кнопку больше 5 раз, котику не нравится</p>
+        <h3>Счетчик: <span id="counter">0</span></h3>
+        <button id="btn">*Тык*</button>
+    </div>
+    <div class="img"></div>
+</section>
+    
+<section class="block">
+    <form id="myForm" onsubmit="return showValues()">
+        <h2>Вопрос</h2>
+        <p>Задайте вопрос, начинающийся на "в смысле"</p>
+        <input type="text" id="que">
+        <button type="submit">Отправить</button>
+        <div class="res"></div>
+    </form>
+</section>
+
+<section class="block one">
+    <h2>Животные</h2>
+    <p>Какое животное вам нравится больше всего?</p>
+    <select id="select1">
+        <option value="кот">Кот</option>
+        <option value="корова">Корова</option>
+        <option value="мопс">Мопс</option>
+        <option value="гусь">Гусь</option>
+    </select>
+    <div class="img second"></div>
+</section>
+<sectio class="block one">
+    <h1>Оцените работу</h1>
+    <div class="slider">
+        <input type="range" min="1" max="100" value="50" class="slider-input">
+        <div class="slider-value"></div>
+    </div>
+    <div class="sl">
+
+    </div>  
+</sectio>
+<script src="script.js"></script>
+</body>
+</html>

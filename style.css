@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(139, 139, 202);
+    width: 500px;
+}
+.img,.sl{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-color-change {
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/кот.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.incorrect,.correct{
+    width: 300px;
+    height: 200px;
+    color: white;
+    background-image: url(/images/blackchel.jpg);
+    background-size: cover;
+}
+.correct{
+    background-image: url(/images/karamislo.jpg);
+}
+.img{
+    background-image: url(/images/cat1.jpg);
+}
+.cow{
+    width: 400px;
+}
+.text{
+    width: 300px;
+}
+.one{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.slider {
+    width: 300px;
+    margin: 30px auto;
+  }
+  
+  .slider-input {
+    width: 100%;
+  }
+  
+  .slider-value {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+.sl{
+    background-image: url(/images/middlechel.jpg);
+}
